@@ -1,0 +1,181 @@
+/*
+auther:athul;
+theme:gym management;
+version:1.o;
+*/
+*/  css for all */
+*{
+margin:0 0;
+padding:0 0;
+font-family:arial,sans-script;
+}
+body{
+
+        background-image: url(../../GYM/COMMEN/images/background.jpeg);
+        
+    } 
+
+.container{
+
+width:100%;
+margin:0 auto;
+padding:1%; 
+
+
+}
+
+.img-responsive{
+width:100%;
+}
+.img-curve{
+    border-radius: 20px;
+     
+}
+
+.text-right{
+text-align:right;
+}
+
+.text-centre{
+    text-align: center;
+}
+
+.clearfix{
+clear:both;
+float:none;
+}
+a{
+color:#0abde3;
+   
+}
+a:hover{
+color:#ff6b6b;
+}
+
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: black;
+    
+}
+
+.btn-primary{
+    background-color:#0abde3 ;
+    cursor: pointer;
+   
+}
+.btn-primary:hover{
+    background-color: #ff6b6b;
+   
+}
+
+.btn-second{
+    color:#0abde3;
+    text-decoration: none;
+   
+    
+    
+
+}
+a.btn-second{
+    display:flex ;
+    justify-content: center;
+}
+
+/* css for name bar  section */
+
+.logo{
+border: 1px solid black; 
+width:10%;
+float:left;
+}
+
+.menu{
+line-height:60px;
+
+}
+.menu ul{
+    list-style-type:none;
+}
+.menu ul li{
+display: inline;
+padding:1%;
+font-weight:bold;
+}
+
+
+
+.menu ul li a{
+/*color:red;*/
+text-decoration: none;
+}
+
+
+
+/* css for advertisement */
+
+.advertisement{
+padding:4% 0;
+
+
+
+}
+.ad-container{
+
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+}
+.box-1{
+    border:1px solid black;
+    width:80%;
+    float: left;
+     
+    margin: 2%;
+}
+.text-centre{
+    text-align: center;
+    color: #6600FF;
+}
+
+/* css for menu */
+.explore{
+    background-color: rgb(34, 202, 235);
+    padding: 4% 0;
+    display: flex;
+
+
+
+}
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.menu1 {
+    border: 1px solid black;
+    width: 19%;
+    margin: 1%;
+    padding: 1.5%;
+    float: left;
+    background-color: var(--color-background);
+  
+  }
+
+/* css for social */
+
+.social ul{
+    list-style-type: none;
+
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+    
+}
+.social ul li a{
+    text-decoration: none;
+}

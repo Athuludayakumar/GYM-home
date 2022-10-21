@@ -1,0 +1,60 @@
+/*
+auther:athul;
+theme:gym management;
+version:1.o;
+*/
+*/ css for all */ * {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: arial, sans-script;
+}
+
+:root {
+    --color-primary: blue;
+    --color-background: white;
+    --color-on-primary: white;
+    --color-on-background:  black;
+    --color-secondary: #ff6b6b;
+    --color-outline: black;
+}
+
+
+
+
+.img-curve {
+    border-radius: 20px;
+
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+
+.btn-primary {
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-secondary);
+}
+
+.btn-second {
+    color: var(--color-secondary);
+    text-decoration: none;
+
+}
+
+.item-center{
+    align-items: center;
+}

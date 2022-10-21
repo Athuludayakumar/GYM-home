@@ -1,0 +1,98 @@
+/*
+auther:athul;
+theme:gym management;
+version:1.o;
+*/
+*/  css for all */
+*{
+margin:0 0;
+padding:0 0;
+font-family:arial,sans-script;
+
+}
+body{
+    background-color: #474e5d;
+}
+.container{
+border:1px solid blue;
+width:80%;
+margin:0 auto;
+padding:1%;
+
+}
+
+.img-responsive{
+width:100%;
+}
+.img-curve{
+    border-radius: 20px;
+     
+}
+
+.text-right{
+text-align:right;
+}
+
+.text-centre{
+    text-align: center;
+}
+
+.clearfix{
+clear:both;
+float:none;
+}
+a{
+color:#0abde3;
+   
+}
+a:hover{
+color:#ff6b6b;
+}
+
+/* css for name bar  section */
+
+.logo{
+border: 1px solid black; 
+width:10%;
+float:left;
+}
+
+.menu{
+line-height:60px;
+
+}
+.menu ul{
+    list-style-type:none;
+}
+.menu ul li{
+display: inline;
+padding:1%;
+font-weight:bold;
+}
+
+
+
+.menu ul li a{
+/*color:red;*/
+text-decoration: none;
+}
+
+ 
+
+.gallery-text{
+    color: black;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: underline;
+
+}
+#img-gal{
+   
+display: flex;
+   height:360px;
+  padding: 50px
+  
+}
