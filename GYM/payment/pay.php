@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,45 +10,38 @@
     <link rel="stylesheet" href="routine.css">
 </head>
 <body>
-    <div class="routinehead">
-    <h2><br></h2>
-</div>
-<div class="home-short">
+ <div class="home-short">
 <ul>
     <li>
           <a href="../HomePage/index.php">Home<a>
     </li>
  </ul>
 
+</div>   
+    <div class="routinehead">
+   <br><br><br>
 </div>
-    <form>
+
+    <form action="payment.php" method="POST">
        
         <div class="container">
 
             <div class="regform">
-                <h1>Make payment</h1>
+                <h1>ADD payment</h1>
             </div>
 
 
-            <div class="routine-name">
-                <label for="fname">E mail: </label>
-                <input class="Membership id" type="text" id="Membership id" name="Membership id">
-            </div>
-            <div class="input-field">
-                <label for="Name">Name: </label>
-                <input type="text" id="Name" name="Name">
-            </div>
           
 
             <div class="input-field">
                 <label for="Amount">monthly Amount: </label>
-                <input type="text" style="color:white;" value="500" disabled id="Amount" name="Amount">
+                <input type="text"  id="Amount" name="Amount" >
             </div>
           
            
             <div class="input-field">
-                <input type="submit" value="ADD PAYMENT">
-                <input type="reset" value="RESET">
+                <input type="submit" value="ADD TO PAYMENT">
+               
             </div>
 
 

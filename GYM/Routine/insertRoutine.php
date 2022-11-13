@@ -16,4 +16,4 @@ $insert = "INSERT INTO routine SET ".$fields.";";
 ;
 var_dump($insert);
 mysqli_query($dataBase,$insert);
-header("location: http://localhost/GYM%20home/GYM/Routine/edit.php");
+header("location: http://localhost/GYM%20home/GYM/Routine/edit.php");  

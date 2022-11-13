@@ -55,8 +55,12 @@ if(isset( $_SESSION['userId'])) { ?>
  <section class="advertisement">
 
       <div class="container  ad-container">
-      
+        <?php if(isset($_GET['notification'])){
+          echo ' <div class="alert alert-success">'.$_GET['notification'].'</div>';
+          
 
+        } ?>
+      
 
              <!--image slider start-->
              <div class="slider">
