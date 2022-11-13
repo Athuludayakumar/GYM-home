@@ -81,6 +81,7 @@ if (!$dataBase) {
         <td>'.$number.'</td>
         <td>'.$joiningDate.'</td>
       <td>  <a href = "memDelete.php?id='.$id.'" >DELETE</a>  </td>
+      <td>  <a href = "insertPay.php?userId='.$id.'" >Pay</a>  </td>
     </tr>';
     }
    
