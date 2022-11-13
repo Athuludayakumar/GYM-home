@@ -40,7 +40,7 @@ if(isset( $_SESSION['userId'])) { ?>
              <a href="#">About us<a>
        </li>
        <li>
-             <a href="#">profile<a>
+             <a href="../profile/profile.php">profile<a>
      </li>
   </div>
 <div class="clearfix"></div>

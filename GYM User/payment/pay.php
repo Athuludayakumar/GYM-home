@@ -43,7 +43,7 @@ foreach($row as $key => $value){
  </ul>
 
 </div>
-    <form>
+    <form method="POST" action="insertPayment.php">
        
         <div class="container">
 
@@ -54,17 +54,17 @@ foreach($row as $key => $value){
 
             <div class="routine-name">
                 <label for="fname">E mail: </label>
-                <input class="email"  style="color: white;"type="email" id="email" value="<?php echo $email?>" disabled name="email">
+                <input class="email" disabled type="email" id="email" name="email" value="<?php echo $email?>"  >
             </div>
             <div class="input-field">
                 <label for="Name">Name: </label>
-                <input type="text"  style="color: white;"id="Name" value="<?php echo $fname." ".$lname ?>" disabled name="Name">
+                <input type="text" disabled id="Name"  name="Name" value="<?php echo $fname." ".$lname ?>"  >
             </div>
           
 
             <div class="input-field">
                 <label for="Amount">monthly Amount: </label>
-                <input type="text" style="color: white;" value="<?php echo $payment ?>" id="Amount" disabled name="Amount">
+                <input type="text" disabled name="Amount" value="<?php echo $payment ?>" id="Amount"  >
             </div>
           
            
@@ -82,3 +82,7 @@ foreach($row as $key => $value){
 
 </body>
 </html>
+<?php
+
+
+?>

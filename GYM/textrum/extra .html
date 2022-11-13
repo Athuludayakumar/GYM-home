@@ -152,3 +152,26 @@
 </table>
 </body>
 </html>
+
+
+
+<div class="routine-name">
+     <label for="fname">E mail: </label>
+     <input class="email"  style="color: white;"type="email" id="email" name="email" value="<?php echo $email?>" disabled >
+ </div>
+ <div class="input-field">
+     <label for="Name">Name: </label>
+     <input type="text"  style="color: white;"id="Name" value="<?php echo $fname." ".$lname ?>" disabled name="Name">
+ </div>
+
+
+ <div class="input-field">
+     <label for="Amount">monthly Amount: </label>
+     <input type="text" style="color: white;" value="<?php echo $payment ?>" id="Amount" disabled name="Amount">
+ </div>
+
+
+ <div class="input-field">
+     <input type="submit" value="ADD PAYMENT">
+     <input type="reset" value="RESET">
+ </div>

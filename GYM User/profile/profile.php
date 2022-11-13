@@ -28,6 +28,8 @@ foreach($row as $key => $value){
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="stylesheet" href="./profile.css">
+<link rel="stylesheet" href="../../GYM/COMMEN/bootstrap/mdb.min.css">
+<script src="../../GYM/COMMEN/jquery.js"></script>
 </head>
 <body>
 
@@ -38,11 +40,8 @@ foreach($row as $key => $value){
                 <div class="row">
                     <div class="col-md-4">
                         <div class="profile-img">
-                            <img width=140.5 height=93.5 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt=""/>
-                            <div class="file btn btn-lg btn-primary">
-                                Change Photo
-                                <input type="file" name="file"/>
-                            </div>
+                            <img src="./WhatsApp Image 2022-10-22 at 10.35.23 AM.jpeg" width="130.5" height="85.5" >
+                            
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -63,8 +62,29 @@ foreach($row as $key => $value){
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+                       
+
+
+
+
+
+
+
+
+<!-- pending linking -->
+
+
+<style>
+    .border {
+        border: 1px solid green;
+    }
+</style>
+
+
+                  <a href="jdkd"  class=" profile-edit-btn border" name="btnAddMore" >Edit Profile</a> 
+                
                     </div>
+                         
                 </div>
                 <div class="row">
                     <div class="col-md-4">

@@ -14,7 +14,7 @@
 <body class="background">
 
     <div class="regform">
-        <h1> GYM NAME</h1>
+        <h1>FLEX </h1>
     </div>
 
     <div class="center regi_background">
