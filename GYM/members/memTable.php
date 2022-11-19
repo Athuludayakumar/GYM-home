@@ -11,26 +11,38 @@ if (!$dataBase) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>members</title>
+    <link rel="stylesheet" href="../COMMEN/routine.css">
 </head>
 <style>
-    table,th,td{
-        border: 1px solid black;
-    }
-    h1{
-        color: black;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:left;
-    font-size: 20px;
-    font-weight: lighter;
-    text-decoration: underline;
+  
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
 
-    
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
 
-    }
-</style>
-<body>
-    <h1>OUR MEMBERS</h1>
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+<body>   
+<div class="home-short">
+<ul>
+    <li>
+          <a href="../HomePage/index.php">Home</a>
+    </li>
+ </ul>
+
+</div>
+    <h1>OUR MEMBERS</h1><br>
+  
     <table style="width:100%">
     <tr>
         <th>Sl No</th>
@@ -45,7 +57,7 @@ if (!$dataBase) {
         <th>ph_number</th>
         <th>joining date</th>
         <th>Action</th>
-
+         <th>payment</th>
     </tr>
 
     <?php 

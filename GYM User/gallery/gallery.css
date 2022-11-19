@@ -11,10 +11,10 @@ font-family:arial,sans-script;
 
 }
 body{
-    background-color: #474e5d;
+    background: -webkit-linear-gradient(left,  #474e5d , #0a3e54);
 }
 .container{
-border:1px solid blue;
+
 width:80%;
 margin:0 auto;
 padding:1%;

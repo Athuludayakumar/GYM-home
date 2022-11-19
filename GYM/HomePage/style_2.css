@@ -253,7 +253,7 @@ a:hover {
 
 /* css for menu */
 .explore {
- background-image: url(../COMMEN/images/m1.jpg);
+ background: -webkit-linear-gradient(left, rgb(203, 39, 39),#3dabf5);
   padding: 4% 0;
   display: flex;
   

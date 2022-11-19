@@ -34,10 +34,10 @@ if(isset( $_SESSION['userId'])) { ?>
        </li>
       
        <li>
-             <a href="#">payment<a>
+       <a href="../payment/pay.php">payment<a>
        </li>
        <li>
-             <a href="#">About us<a>
+             <a href="../explore/master.html">About us<a>
        </li>
        <li>
              <a href="../profile/profile.php">profile<a>
@@ -182,7 +182,7 @@ if(isset( $_SESSION['userId'])) { ?>
 <section class="footer">
 <div class="container text-centre">
 
-                                                                 <p>All rights are reserved.  <a href="../../GYM/explore/master.html">AboutUs</a></p>
+                                                                 <p>All rights are reserved.</p>
 </div>
 </section>
 <!-- footer selection ends here -->

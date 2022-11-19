@@ -11,4 +11,3 @@ mysqli_query($dataBase,$sql);
 header("Location:http://localhost/GYM%20home/GYM/payment/sussful.html?notification=successfully paid");
 
 ?>
-

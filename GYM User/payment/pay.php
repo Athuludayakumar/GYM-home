@@ -38,7 +38,7 @@ foreach($row as $key => $value){
 <div class="home-short">
 <ul>
     <li>
-          <a href="../HomePage/index.php">Home<a>
+          <a href="../userhomepage/userindex.php">Home<a>
     </li>
  </ul>
 
@@ -54,23 +54,25 @@ foreach($row as $key => $value){
 
             <div class="routine-name">
                 <label for="fname">E mail: </label>
-                <input class="email" disabled type="email" id="email" name="email" value="<?php echo $email?>"  >
+                <input class="email" disabled type="email" id="email" name="email" style="color: white;" value="<?php echo $email?>"  >
             </div>
             <div class="input-field">
                 <label for="Name">Name: </label>
-                <input type="text" disabled id="Name"  name="Name" value="<?php echo $fname." ".$lname ?>"  >
+                <input type="text" disabled id="Name"  name="Name" style="color: white;"  value="<?php echo $fname." ".$lname ?>"  >
+                
+            
             </div>
           
 
             <div class="input-field">
                 <label for="Amount">monthly Amount: </label>
-                <input type="text" disabled name="Amount" value="<?php echo $payment ?>" id="Amount"  >
+                <input type="text" disabled name="Amount" style="color: white;" value="<?php echo $payment ?>" id="Amount"  >
             </div>
           
            
-            <div class="input-field">
-                <input type="submit" value="ADD PAYMENT">
-                <input type="reset" value="RESET">
+            <div class="input-field ">
+                <input  type="submit" value="ADD PAYMENT">
+                
             </div>
 
 

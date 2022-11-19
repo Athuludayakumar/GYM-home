@@ -10,7 +10,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sidebar menu With Sub-menus | Using HTML, CSS & JQuery</title>
+  <title>admin control</title>
   <link rel="stylesheet" href="./style_2.css">
   <link rel="stylesheet" href="../COMMEN/style.css">
   <link rel="stylesheet" href="./slidetxt.css">
@@ -40,7 +40,7 @@
 
     
 
-      <div class="item"><a href="#"><i class="fas fa-money-check-dollar"></i>Payment</a></div>
+      <div class="item"><a href="../payment/payTable.php"><i class="fas fa-money-check-dollar"></i>Payment</a></div>
 
      
      <div class="item"><a href="../members/memTable.php"><i class="fas fa-money-check-dollar"></i>Members</a></div>
@@ -53,7 +53,7 @@
         <div class="sub-menu">
           <a href="../overview/month.php" class="sub-item">Member overview</a>
          
-          <a href="#" class="sub-item">Income per month</a>
+          <a href="../payment/payTotal.php" class="sub-item">Income overview</a>
         </div>
       </div>
       
@@ -66,7 +66,7 @@
         </div>
       </div>
      
-      <div class="item"><a href="#"><i class="fas fa-info-circle"></i>Profile</a></div>
+      <div class="item"><a href="../profile/profile.php"><i class="fas fa-info-circle"></i>Profile</a></div>
 
       <div class="item"><a href="#"><i class="fas fa-th"></i>logout</a></div>
 

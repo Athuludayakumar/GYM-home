@@ -11,7 +11,7 @@ font-family:arial,sans-script;
 }
 body{
 
-        background-image: url(../../GYM/COMMEN/images/background.jpeg);
+    background: -webkit-linear-gradient(left,  #474e5d , #0a3e54);
         
     } 
 
@@ -25,7 +25,7 @@ padding:1%;
 }
 
 .img-responsive{
-width:100%;
+width:50%;
 }
 .img-curve{
     border-radius: 20px;
@@ -45,7 +45,7 @@ clear:both;
 float:none;
 }
 a{
-color:#0abde3;
+color:#3dabf5;
    
 }
 a:hover{
@@ -63,7 +63,7 @@ color:#ff6b6b;
 }
 
 .btn-primary{
-    background-color:#0abde3 ;
+    background-color:#3dabf5;
     cursor: pointer;
    
 }
@@ -73,7 +73,7 @@ color:#ff6b6b;
 }
 
 .btn-second{
-    color:#0abde3;
+    color:#3dabf5;
     text-decoration: none;
    
     
@@ -88,7 +88,7 @@ a.btn-second{
 /* css for name bar  section */
 
 .logo{
-border: 1px solid black; 
+ 
 width:10%;
 float:left;
 }
@@ -144,7 +144,7 @@ padding:4% 0;
 
 /* css for menu */
 .explore{
-    background-color: rgb(34, 202, 235);
+    background-color:#3dabf5;
     padding: 4% 0;
     display: flex;
 

@@ -13,10 +13,24 @@ if (!$dataBase) {
     <title>edit</title>
 </head>
 <style>
-    table,th,td{
-        border: 1px solid black;
-      
-    }
+  
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align:center;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    
    
     
     a{
@@ -43,9 +57,7 @@ a:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-th,td{
-    text-align: center;
-}
+
 
 h1{
 

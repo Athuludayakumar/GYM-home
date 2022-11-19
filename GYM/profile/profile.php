@@ -1,17 +1,4 @@
-<?php
-$dataBase= mysqli_connect("localhost","root","","gyn_db");
-if(!$dataBase){
-    die("can't connect" . mysqli_connect_error());
-}
-session_start();
-$id = $_SESSION['userId'];
-$result = mysqli_query($dataBase,"SELECT * FROM regform WHERE id = '$id'");
-$row = mysqli_fetch_assoc($result);
-foreach($row as $key => $value){
-    $$key = $value;
-}
 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,7 +21,7 @@ foreach($row as $key => $value){
 <body>
 
 <div>
-    <a  href="../userhomepage/userindex.php">back</a>
+    <a  href="../HomePage/index.php">back</a>
 </div>
    
 <div class="container emp-profile">
@@ -51,11 +38,9 @@ foreach($row as $key => $value){
                     <div class="col-md-6">
                         <div class="profile-head">
                                     <h5><br><br>
-                                    <?php echo $fname?>
+                                   FLEX FITNESS
                                     </h5>
-                                    <h6> 
-                                    <?php echo $email?>
-                                    </h6>
+                                   
                                   <p><br><br></p>
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item">
@@ -85,18 +70,16 @@ foreach($row as $key => $value){
 </style>
 
 
-                  <a href="../../GYM/login&logout/registration/regUpdate.php"  class=" profile-edit-btn border" name="btnAddMore" >Edit Profile</a> 
-                
-                    </div>
+                 
                          
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="profile-work">
-                            <p>WORK LINK</p>
-                            <a href="">Website Link</a><br/>
-                            <a href="">Bootsnipp Profile</a><br/>
-                            <a href="">Bootply Profile</a>
+                            <p>FLEX</p>
+                            <a href="">KEY TO FITNESS</a><br/>
+                            <a href="">WAKEUP TO RALITY</a><br/>
+                            <a href="">DO IT NOW</a>
                             
                             
                         </div>
@@ -107,11 +90,11 @@ foreach($row as $key => $value){
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <label>Name</label>
+                                                <label>Location</label>
                                             </div>
                                             <div class="col-md-6">
                                                 <p>
-                                                    <?php echo $fname." ".$lname; ?>
+                                                   Near busstand kizakkekavala 
                                                 </p>
                                             </div>
                                         </div>
@@ -121,17 +104,17 @@ foreach($row as $key => $value){
                                             </div>
                                             <div class="col-md-6">
                                                 <p>
-                                                    <?php echo $streetName; ?>
+                                                   NEDUMKANDAM
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <label>Joined Date</label>
+                                                <label>any feature</label>
                                             </div>
                                             <div class="col-md-6">
                                                 <p>
-                                                    <?php echo $joiningDate; ?>
+                                                    gfddfg
                                                 </p>
                                             </div>
                                         </div>
@@ -141,7 +124,7 @@ foreach($row as $key => $value){
                                             </div>
                                             <div class="col-md-6">
                                                 <p>
-                                                    <?php echo $number; ?>
+                                                  04868 25859  
                                                 </p>
                                             </div>
                                         </div>
@@ -152,7 +135,7 @@ foreach($row as $key => $value){
                                             <div class="col-md-6">
                                                 <p>
 
-                                                <?php echo $state; ?>
+                                               KERALA
                                                 </p>
                                                     
                                             </div>

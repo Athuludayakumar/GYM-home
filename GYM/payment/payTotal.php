@@ -24,19 +24,21 @@
         tr:nth-child(even) {
             background-color: #dddddd;
         }
+      
     </style>
 </head>
 
 <body>
-<div class="home-short">
+    
+    <div class="home-short">
 <ul>
     <li>
           <a href="../HomePage/index.php">Home</a>
     </li>
  </ul>
-</div>
 
-    <h2>INCOME DETAILS</h2><br>
+</div> 
+ <h1>Total Income </h1><br>
     <table>
         <tr>
             <th>No</th>
@@ -75,61 +77,6 @@
         ?>
     </table>
 
-
-    <?php
-    $array = [];
-    foreach ($allPayments as $payment) {
-        array_push($array, $payment);
-    }
-
-    $uniqueEmails = array_unique(
-        array_map(fn ($v) => $v['email'], $array)
-    );
-
-    foreach ($uniqueEmails as $email) {
-        $list = array_values(array_filter($array, fn ($v) => $v['email'] == $email));
-
-        $name = $list[0]['fname'] . " " . $list[0]['lname'];
-        echo "<br>
-    <h3>$name</h3>
-    <table>
-        <tr>
-            <th>No</th>
-            <th>Full Name</th>
-            <th>Email</th>
-            <th>Payment</th>
-            <th>Date</th>
-        </tr>";
-        $counter = 0;
-        $total = 0;
-        foreach ($list as $payment) {
-            $counter++;
-            $date = date("Y-m-d (h:i A)", strtotime($payment['date']));
-            $payment['date'] = $date;
-            foreach ($payment as $key => $val) {
-                $$key = $val;
-            }
-            $total += $payment;
-            echo "<tr>
-            <td>$counter</td>
-            <td>$fname $lname</td>
-            <td>$email</td>
-            <td>$payment</td>
-            <td>$date</td>
-        </tr>";
-        }
-        echo "<tr>
-        <td colspan=3>Total</td>
-        <td colspan = 3> $total </td>
-        </tr></table>";
-    }
-
-
-
-
-
-
-    ?>
 </body>
 
 </html>

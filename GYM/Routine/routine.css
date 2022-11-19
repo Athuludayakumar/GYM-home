@@ -26,7 +26,7 @@ version:one */
 body{
   margin: 0;
   padding: 0 ;
-  background: #474e5d ;
+  background: -webkit-linear-gradient(left,  #474e5d , #0a3e54);
   height: 100vh;
   overflow: hidden;
 

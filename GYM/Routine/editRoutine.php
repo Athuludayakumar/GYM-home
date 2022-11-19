@@ -12,6 +12,7 @@ $name = $_GET['id'];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Routine</title>
     <link rel="stylesheet" href="routine.css">
+    
 </head>
 <style>
     h1{

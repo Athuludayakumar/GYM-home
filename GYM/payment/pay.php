@@ -13,7 +13,7 @@
  <div class="home-short">
 <ul>
     <li>
-          <a href="../HomePage/index.php">Home<a>
+          <a href="../HomePage/index.php">Home</a>
     </li>
  </ul>
 

@@ -11,6 +11,7 @@ if (!$dataBase) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>month</title>
+    <link rel="stylesheet" href="../../GYM User/userhomepage/style.css">
 </head>
 <style>
     table,th,td{
@@ -21,8 +22,18 @@ if (!$dataBase) {
         text-decoration:underline;
 
     }
+   a{
+    text-decoration: none;
+    float: right;
+   }
 </style>
 <body>
+      
+<div class="home-short">
+
+          <a href="../HomePage/index.php">Home</a>
+   
+</div>
 <form action=" ">
     <input type="date" name="start_date" placeholder="start_date">
     <input type="date" name="end_date" placeholder="end_date">

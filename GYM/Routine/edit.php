@@ -11,11 +11,28 @@ if (!$dataBase) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>edit</title>
+
+
 </head>
 <style>
-    table,th,td{
-        border: 1px solid black;
-    }
+   
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    
 
     a{
         display: inline-block;
@@ -50,6 +67,8 @@ th,td{
 </style>
 <body>
     <h1>Routines</h1>
+    
+                      
     <table style="width:100%">
     <tr>
         <th>Sl No</th>

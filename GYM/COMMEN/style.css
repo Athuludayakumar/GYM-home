@@ -20,7 +20,7 @@ version:1.o;
 }
 
 body{
-   background-image: url(./images/background.jpeg);
+  background: -webkit-linear-gradient(left,#3dabf5, rgb(186, 43, 43));
 }
 
 
